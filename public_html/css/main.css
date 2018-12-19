@@ -1,0 +1,63 @@
+.postList{
+    list-style: none;
+}
+
+.postList li{
+    width: 360px;
+    padding: 20px;
+}
+
+.actions{
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.actions button{
+    width: 30px;
+    height: 30px;
+}
+
+.actions .edit{
+    background-image: url("/assets/edit-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.actions .delete{
+    background-image: url("/assets/delete-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img.postImg{
+    width: 320px;
+    height: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-item{
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+#imageForm{
+    background: white;
+    padding: 30px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.error-message{
+    color: red;
+}
+
+h3{
+    color: #007bff;
+}
